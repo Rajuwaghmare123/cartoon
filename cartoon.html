@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+   
+    .cartoon{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 60vmin;
+        height: 60vmin;
+        background-color: white;
+        }
+    .face{
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        background-color: rgb(252, 218, 190);
+        border-radius: 40px;
+        left: 35%;
+        top: 35%;
+    }
+    .neck{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(252, 218, 190);
+        border-radius: 50px;
+        left: 42%;
+        top: 60%;
+    }
+    .mouth{
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        background-color:transparent;
+        top: 55%;
+        left: 35%;
+        border-radius: 50% ;
+        box-shadow: 0px 10px 0px 1px gray;
+        
+    }
+    .nose{
+        position: absolute;
+        width: 30px;
+        height: 1px;
+        border-radius: 90% 7% 60% 40%/40%;
+        border: 2px solid rgba(3, 10, 5, 0.267);
+        background-color: rgb(43, 41, 41);
+        left: 33%;
+        top: 60%;
+        box-shadow: 0px 1px 6px 1px;
+        
+    }
+    .ear{
+       position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 20px;
+        background-color: rgb(252, 218, 190);
+        left: 30%;
+        top: 45%;
+    }
+    .hole{
+       position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: black;
+        left: 20%;
+        top: 20%;
+    }
+
+    .ear1{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 20px;
+        background-color: rgb(252, 218, 190);
+        left: 60%;
+        top: 45%;
+    }
+    .hole1{
+       position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: black;
+        left: 30%;
+        top: 20%;
+    }
+    .eye{
+        position: absolute;
+        width: 15px;
+        height: 25px;
+        background: black;
+        border-radius: 100% 100% 100% 100%/100%;
+        left: 20%;
+        top: 29%;
+    }
+    .pupil{
+        position: absolute;
+        width: 6px;
+        height: 12px;
+        background: white;
+        border-radius: 100% 100% 100% 100%/100% ;
+        left: 30%;
+        top: 29%;
+    }
+    .eye1{
+        position: absolute;
+        width: 15px;
+        height: 25px;
+        background: black;
+        border-radius: 100% 100% 100% 100%/100%;
+        left: 66%;
+        top: 29%;
+    }
+    .pupil1{
+        position: absolute;
+        width: 6px;
+        height: 12px;
+        background: white;
+        border-radius: 100% 100% 100% 100%/100% ;
+        left: 25%;
+        top: 29%;
+    }
+    .eyebrow{
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        background-color: transparent;
+        top: 28%;
+        left: 14%;
+        border-radius: 50% ;
+        box-shadow: 0px -6px 1px 0px black;
+    }
+    .eyebrow + .eyebrow{
+        transform: scale(-1) rotate(180deg);
+        left: 72px;
+        right: auto;
+    }
+    .hair{
+     position: absolute;
+      height: 45px;
+      width: 92px;
+      border-radius: 180px 150px 0 0;
+      background-color: black;
+      left: 30%;
+      top: 30%;
+      transform: rotate(-35deg);
+    
+    }
+    .hair1{
+       
+      position: absolute;
+      height: 45px;
+      width: 92px;
+      border-radius: 180px 140px 0 0;
+      background-color: black;
+      left: 47%;
+      top: 30%;
+      transform: rotate(35deg);
+    
+    }
+    .hair2{
+        position: absolute;
+        height: 0px;
+        width: 0;
+        margin: 10px auto;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 40px solid black;
+        top: 22%;
+        left: 47%;
+    
+    }
+    .shoulder{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background: rgb(70, 235, 70);
+        border-radius: 30px;
+        left: 29%;
+        top: 61%;
+    }
+    .back{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        background: gray;
+        left: 26%;
+        top: 28%;
+    }
+    </style>
+</head>
+<body>
+<div class="cartoon">
+
+
+        <div class="back">  </div>
+        <div class="shoulder"></div>
+        <div class="neck"></div>
+        
+        <div class="face">
+            
+            <div class="nose"></div>
+            <div class="mouth"></div>
+            <div class="eye"> <div class="pupil"> </div> </div>
+            <div class="eye1"> <div class="pupil1"> </div> </div>
+            <div class="eyebrow"></div>
+            <div class="eyebrow"></div>
+        </div>
+        <div class="hair"> </div>
+        <div class="hair1"> </div>
+        <div class="hair2"> </div>
+
+
+
+        <div class="ear"> <div class="hole"></div></div>
+        <div class="ear1"> <div class="hole1"></div></div>
+</div>
+
+</body>
+</html>
